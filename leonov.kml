@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Paths</name>
+    <description>Leonov path.</description>
+    <Style id="redLineYellowPoly">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f7f0000</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Absolute Extruded</name>
+      <description>Transparent green wall with yellow outlines</description>
+      <styleUrl>#redLineYellowPoly</styleUrl>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+8.89241667,46.57608333,3376
+8.89252778,46.57619444,3372
+8.89266667,46.57641667,3374
+8.89280556,46.57650000,3373
+8.99241667,46.57608333,3376
+8.99252778,46.57619444,3372
+8.99266667,46.57641667,3374
+8.99280556,46.57650000,3373
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
